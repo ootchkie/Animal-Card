@@ -1,0 +1,39 @@
+/* add your CSS here */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+#wrapper
+{
+	margin: 310px;
+}
+#card
+{
+	text-align:top;
+	float: center;
+    width: 365px;
+    border: thin solid #c0c0c0;
+    background: #ddf;
+    padding: 13px;
+    margin: 0 13px 13px 0;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+#list
+{
+	text-align:left;
+	width:300px;
+	font-weight: bold;
+	border: 1px solid green;
+	padding: 5px;
+	list-style: none;
+}
+.word
+{
+	background-color: inherit;
+	color: red;
+}
+
