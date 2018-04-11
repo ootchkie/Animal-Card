@@ -1,22 +1,22 @@
 /* add your CSS here */
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
 }
 #wrapper
 {
-	margin: 310px;
+	margin:30px;
+	background:grey;
 }
 #card
 {
-	text-align:top;
-	float: center;
-    width: 365px;
-    border: thin solid #c0c0c0;
-    background: #ddf;
-    padding: 13px;
-    margin: 0 13px 13px 0;
+	margin:0 auto;
+	text-align:center;
+	padding:13px;
+	width:600px;
+	border:14px solid black/*#c0c0c0*/;
+	background:#ddf;   
 	border-top-right-radius: 15px;
 	border-top-left-radius: 15px;
 	border-bottom-right-radius: 15px;
@@ -25,15 +25,39 @@
 #list
 {
 	text-align:left;
-	width:300px;
-	font-weight: bold;
-	border: 1px solid green;
-	padding: 5px;
-	list-style: none;
+	margin:auto;
+	width:275px;	
+	border:5px solid green;
+	padding:5px;
+	list-style:none;
 }
 .word
 {
-	background-color: inherit;
-	color: red;
+	background-color:inherit;
+	color:red;
 }
-
+#name
+{
+	border:thick solid red;
+	font-weight:bold;
+}
+#image
+{
+	cursor: pointer;
+    border: 5px dashed salmon;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #eee;
+}
+#info
+{
+	border:thick solid grey;
+	width:300px;
+}
+#fact
+{
+	border:20px dashed salmon;
+}
+#description
+{
+	border:15px dotted violet;
+}
