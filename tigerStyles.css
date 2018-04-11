@@ -14,13 +14,18 @@
 	margin:0 auto;
 	text-align:center;
 	padding:13px;
-	width:600px;
+	width:400px;
 	border:14px solid black/*#c0c0c0*/;
 	background:#ddf;   
 	border-top-right-radius: 15px;
 	border-top-left-radius: 15px;
 	border-bottom-right-radius: 15px;
 	border-bottom-left-radius: 15px;
+}
+#info
+{
+	border:15px dotted violet;
+	width:auto;
 }
 #list
 {
@@ -40,6 +45,7 @@
 {
 	border:thick solid red;
 	font-weight:bold;
+	font-size:xx-large;
 }
 #image
 {
@@ -48,16 +54,22 @@
     border-radius: 5px;
     box-shadow: 10px 10px 10px #eee;
 }
-#info
-{
-	border:thick solid grey;
-	width:300px;
-}
 #fact
 {
 	border:20px dashed salmon;
+	font-size:large;
 }
 #description
 {
-	border:15px dotted violet;
+	border:thick solid blue;
+	font-size:1.5em;
+}
+span
+{
+	font-weight:bold;
+}
+.phrase
+{
+	font-weight: normal;
+	font-style:italic;	
 }
